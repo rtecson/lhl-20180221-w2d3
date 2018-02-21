@@ -13,6 +13,8 @@
 		2A60A8C0203DE1FF00DC4906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A60A8BF203DE1FF00DC4906 /* Assets.xcassets */; };
 		2A60A8C3203DE1FF00DC4906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A60A8C1203DE1FF00DC4906 /* LaunchScreen.storyboard */; };
 		2A60A8C6203DE1FF00DC4906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A60A8C5203DE1FF00DC4906 /* main.m */; };
+		2A60A8CD203DE99800DC4906 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A60A8CC203DE99800DC4906 /* CustomView.xib */; };
+		2A60A8D0203DEC2400DC4906 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A60A8CF203DEC2400DC4906 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		2A60A8C2203DE1FF00DC4906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A60A8C4203DE1FF00DC4906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A60A8C5203DE1FF00DC4906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A60A8CC203DE99800DC4906 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		2A60A8CE203DEC2400DC4906 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		2A60A8CF203DEC2400DC4906 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 				2A60A8B9203DE1FF00DC4906 /* ViewController.h */,
 				2A60A8BA203DE1FF00DC4906 /* ViewController.m */,
 				2A60A8BC203DE1FF00DC4906 /* Main.storyboard */,
+				2A60A8CC203DE99800DC4906 /* CustomView.xib */,
+				2A60A8CE203DEC2400DC4906 /* CustomView.h */,
+				2A60A8CF203DEC2400DC4906 /* CustomView.m */,
 				2A60A8BF203DE1FF00DC4906 /* Assets.xcassets */,
 				2A60A8C1203DE1FF00DC4906 /* LaunchScreen.storyboard */,
 				2A60A8C4203DE1FF00DC4906 /* Info.plist */,
@@ -130,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A60A8C3203DE1FF00DC4906 /* LaunchScreen.storyboard in Resources */,
+				2A60A8CD203DE99800DC4906 /* CustomView.xib in Resources */,
 				2A60A8C0203DE1FF00DC4906 /* Assets.xcassets in Resources */,
 				2A60A8BE203DE1FF00DC4906 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A60A8BB203DE1FF00DC4906 /* ViewController.m in Sources */,
+				2A60A8D0203DEC2400DC4906 /* CustomView.m in Sources */,
 				2A60A8C6203DE1FF00DC4906 /* main.m in Sources */,
 				2A60A8B8203DE1FF00DC4906 /* AppDelegate.m in Sources */,
 			);

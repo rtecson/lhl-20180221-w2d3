@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomView">
+            <connections>
+                <outlet property="button" destination="db1-Fq-Gdn" id="bnt-AK-RA4"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="NIi-LZ-Iow"/>
+                <outlet property="label" destination="eWp-h6-EkA" id="k9I-ef-gRe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="contentView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LRd-HQ-heO">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.058823529409999999" green="0.66666666669999997" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWp-h6-EkA">
+                    <rect key="frame" x="166" y="323" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db1-Fq-Gdn">
+                    <rect key="frame" x="164" y="349.5" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="Saj-JQ-asJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="db1-Fq-Gdn" firstAttribute="centerX" secondItem="eWp-h6-EkA" secondAttribute="centerX" id="0x7-yI-e3g"/>
+                <constraint firstItem="LRd-HQ-heO" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="LjT-pc-fca"/>
+                <constraint firstItem="LRd-HQ-heO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Z5e-3U-MS7"/>
+                <constraint firstItem="LRd-HQ-heO" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ZU2-xP-fan"/>
+                <constraint firstItem="eWp-h6-EkA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="a9J-LQ-29z"/>
+                <constraint firstItem="eWp-h6-EkA" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="h3k-jJ-nNM"/>
+                <constraint firstItem="LRd-HQ-heO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="jxf-sC-EwM"/>
+                <constraint firstItem="db1-Fq-Gdn" firstAttribute="top" secondItem="eWp-h6-EkA" secondAttribute="bottom" constant="5.5" id="xpB-Cz-Q9u"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

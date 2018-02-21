@@ -26,4 +26,17 @@
 }
 
 
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    // Do some logic to determine whether to allow segue to trigger or not
+    return TRUE;
+}
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"mySegue"]) {
+        // Pass information to next view controller here
+    }
+}
+
 @end
